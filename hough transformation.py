@@ -7,6 +7,8 @@ SAMPLES = 100
 THRESHOLD = 0.3
 COLOR = (255, 0, 255)
 
+"""Applies Hough Transformation on image to detect circles"""
+
 def hough_circles(edges, minimumRadius, maximumRadius):
     """Apply hough transformation for circles"""
     (height, width) = edges.shape

@@ -5,7 +5,7 @@ import numpy as np
 
 HISTOGRAM_LENGTH = 256
 WHITE = 255
-
+"""Applies otsu thresholding on image"""
 def histogram(image):
     """generate grayscale histogram of supplied image"""
     # initialize new histogram

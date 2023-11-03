@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+"""Applies Harris Corner Detection Algorith to find edges in image"""
 KERNELSIZE = (3, 3)
 SIGMA = 1.4
 ALPHA = 0.06

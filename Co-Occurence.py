@@ -3,6 +3,8 @@ import math
 import cv2
 import numpy as np
 
+"""determine co-occurence matrix and calculate entropy, homogenity and contrast"""
+
 ANGLES = np.deg2rad([0, 45, 90, 135])
 DISTANCE = 1
 VALUE_RANGE = 256
